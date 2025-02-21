@@ -1,0 +1,7 @@
+{
+    "database": "rubyquest.db",
+    "query": "select names, health from creatures",
+    "error": "no such table: creatures",
+    "resultcount": 0,
+    "result": []
+}

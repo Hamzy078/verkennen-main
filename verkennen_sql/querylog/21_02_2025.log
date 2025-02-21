@@ -1,0 +1,11 @@
+select * from city; #09:24:39@rubyquest.db
+select * from city; #09:26:52@rubyquest.db
+select * from creature; #09:28:37@rubyquest.db
+select * from query; #09:28:49@rubyquest.db
+select * from quest; #09:29:31@rubyquest.db
+select name from armor; #09:32:09@rubyquest.db
+select name and attack from weapon; #09:32:59@rubyquest.db
+select name, attack from weapon; #09:33:17@rubyquest.db
+select names, health from creatures; #09:34:05@rubyquest.db
+select names, health from creature; #09:34:16@rubyquest.db
+select name, health from creature; #09:34:38@rubyquest.db
