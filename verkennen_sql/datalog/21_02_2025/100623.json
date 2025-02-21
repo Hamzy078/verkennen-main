@@ -1,0 +1,24 @@
+{
+    "database": "rubyquest.db",
+    "query": "select region, name from city where region = 1;",
+    "error": null,
+    "resultcount": 4,
+    "result": [
+        {
+            "region": 1,
+            "name": "Tomparf"
+        },
+        {
+            "region": 1,
+            "name": "Preqeu"
+        },
+        {
+            "region": 1,
+            "name": "Hansora"
+        },
+        {
+            "region": 1,
+            "name": "Ismir"
+        }
+    ]
+}

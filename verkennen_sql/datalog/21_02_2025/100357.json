@@ -1,0 +1,11 @@
+{
+    "database": "rubyquest.db",
+    "query": "select id from person where id = 7;",
+    "error": null,
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 7
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "database": "rubyquest.db",
+    "query": "select from quest where gold = 0;",
+    "error": "near \"from\": syntax error",
+    "resultcount": 0,
+    "result": []
+}

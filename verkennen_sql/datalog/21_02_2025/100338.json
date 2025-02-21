@@ -1,0 +1,11 @@
+{
+    "database": "rubyquest.db",
+    "query": "select gold from quest where gold = 0;",
+    "error": null,
+    "resultcount": 1,
+    "result": [
+        {
+            "gold": 0
+        }
+    ]
+}

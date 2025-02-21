@@ -1,0 +1,7 @@
+{
+    "database": "rubyquest.db",
+    "query": "select id(7) from person",
+    "error": "no such function: id",
+    "resultcount": 0,
+    "result": []
+}

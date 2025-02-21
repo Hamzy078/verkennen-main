@@ -1,0 +1,7 @@
+{
+    "database": "rubyquest.db",
+    "query": "SELECT id, naam FROM person WHERE id = 7;",
+    "error": "no such column: naam",
+    "resultcount": 0,
+    "result": []
+}

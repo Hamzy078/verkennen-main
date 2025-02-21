@@ -1,0 +1,7 @@
+{
+    "database": "rubyquest.db",
+    "query": "select quest where gold = 0;",
+    "error": "no such column: quest",
+    "resultcount": 0,
+    "result": []
+}

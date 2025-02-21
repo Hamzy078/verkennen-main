@@ -9,3 +9,26 @@ select name, attack from weapon; #09:33:17@rubyquest.db
 select names, health from creatures; #09:34:05@rubyquest.db
 select names, health from creature; #09:34:16@rubyquest.db
 select name, health from creature; #09:34:38@rubyquest.db
+select id from person; #09:46:15@rubyquest.db
+select id(7) from person; #09:46:40@rubyquest.db
+select id, 7 from person; #09:47:05@rubyquest.db
+SELECT id, naam FROM person WHERE id = 7;; #09:49:31@rubyquest.db
+SELECT id, name FROM person WHERE id = 7;; #09:49:41@rubyquest.db
+select quest where gold = 0;; #09:59:38@rubyquest.db
+select * FROM person WHERE id = 7;; #10:01:20@rubyquest.db
+select id FROM person WHERE id = 7;; #10:01:32@rubyquest.db
+select from quest where gold = 0;; #10:03:01@rubyquest.db
+select gold from quest where gold = 0;; #10:03:38@rubyquest.db
+select id from person where id = 7;; #10:03:57@rubyquest.db
+select id, name from person where id = 7;; #10:04:16@rubyquest.db
+select gold, name from quest where gold = 0;; #10:04:29@rubyquest.db
+select gold, title from quest where gold = 0;; #10:04:50@rubyquest.db
+select region, name from city where region = 1;; #10:06:23@rubyquest.db
+select type from animal where type = sheep;; #10:07:21@rubyquest.db
+select type from animal where type = Sheep;; #10:08:04@rubyquest.db
+select type from animal where type = Sheep;; #10:08:59@rubyquest.db
+select type, name from animal where type = Sheep;; #10:09:24@rubyquest.db
+SELECT type, name FROM animal WHERE type = Sheep;; #10:12:37@rubyquest.db
+SELECT type FROM animal WHERE type = Sheep;; #10:12:59@rubyquest.db
+select owner, type from animal where owner > 0;; #10:18:28@rubyquest.db
+select * from animal except type = sheep;; #10:19:38@rubyquest.db

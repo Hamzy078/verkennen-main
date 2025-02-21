@@ -1,0 +1,7 @@
+{
+    "database": "rubyquest.db",
+    "query": "select * from animal except type = sheep;",
+    "error": "near \"type\": syntax error",
+    "resultcount": 0,
+    "result": []
+}

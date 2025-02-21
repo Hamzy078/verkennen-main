@@ -1,0 +1,52 @@
+{
+    "database": "rubyquest.db",
+    "query": "select owner, type from animal where owner > 0;",
+    "error": null,
+    "resultcount": 11,
+    "result": [
+        {
+            "owner": 2,
+            "type": "Sheep"
+        },
+        {
+            "owner": 7,
+            "type": "Sheep"
+        },
+        {
+            "owner": 10,
+            "type": "Wolf"
+        },
+        {
+            "owner": 9,
+            "type": "Wolf"
+        },
+        {
+            "owner": 3,
+            "type": "Bear"
+        },
+        {
+            "owner": 1,
+            "type": "Eagle"
+        },
+        {
+            "owner": 4,
+            "type": "Eagle"
+        },
+        {
+            "owner": 8,
+            "type": "Tiger"
+        },
+        {
+            "owner": 2,
+            "type": "Sea Snake"
+        },
+        {
+            "owner": 5,
+            "type": "Giant Rat"
+        },
+        {
+            "owner": 6,
+            "type": "Giant Rat"
+        }
+    ]
+}
